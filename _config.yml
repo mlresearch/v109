@@ -9,10 +9,10 @@ url: http://proceedings.mlr.press
 published: 2019-10-14
 location: ACM RecSys 2019, Copenhagen, Denmark
 sections:
-- name: 'Keynote '
-  title: 'Keynote '
-- name: " Contributed Papers"
-  title: " Contributed Papers"
+- name: 'Keynote'
+  title: 'Keynote'
+- name: "Contributed Papers"
+  title: "Contributed Papers"
 layout: proceedings
 series: Proceedings of Machine Learning Research
 id: ORSUM-2019
