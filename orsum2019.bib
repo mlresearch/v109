@@ -1,0 +1,71 @@
+@Proceedings{ORSUM-2019,
+    booktitle = {Proceedings of the 2nd Workshop on Online Recommder Systems and User Modeling},
+    name = {2nd Workshop on Online Recommender Systems and User Modeling},
+    shortname = {ORSUM},
+    year = {2019},
+    editor = {Vinagre, Jo\~{a}o and Jorge, Al\'{i}pio M\'{a}rio and Bifet, Albert and Al-Ghossein, Marie},
+    volume = {109},
+    start = {2019-09-19},
+    end = {2019-09-19},
+    url = {http://orsum.inesctec.pt/orsum2019},
+    published = {2019-10-14},
+    location = {ACM RecSys 2019, Copenhagen, Denmark},
+    sections = {Keynote | Contributed Papers}
+}
+
+@InProceedings{cremonesi19,
+    title = {A pragmatic and industry-aware approach toward the design of on-line recommender systems},
+    section = {Keynote},
+    author = {Cremonesi, Paolo},
+    pages = {1-1},
+    abstract = {On-line recommender systems are designed to address a number of different recommendation scenarios in which traditional systems fail primarily, but not only, due to scalability issues. The goal of this talk is to give participants an overview on the design requirements for on-line recommender systems, with a focus on their quality evaluation, and to provide pragmatic guidelines to perform these activities more effectively avoiding commons pitfalls. The talk is structured into two parts. In the first part, after a general overview of on-line recommender systems, we will analyze different application scenarios. In the second part we will analyze possible functional and non-functional evaluation problems. We will present some of our works on evaluating presentation biases, problems which affect click-based on-line recommender systems. We will later present some of our recent work towards comparing the scalability of different Top-N recommender systems, understanding their fundamental limitations and characteristics for some of the application scenarios identified in the first part.}
+}
+
+@InProceedings{peska19,
+    title = {Fuzzy D'Hondt's Algorithm for On-line Recommendations Aggregation},
+    section = {Contributed Papers},
+    author = {Pe\v{s}ka, Ladislav and Balkar, \v{S}te\v{p}\'{a}n},
+    pages = {2-11},
+    abstract = {In this paper, we present Fuzzy D'Hondt's algorithm suitable to aggregate lists of recommended objects originating from various base recommending methods. The algorithm is inspired by D'Hondt's election method used to a proportional conversion of votes to mandates in public elections. We enhance the original approach to enable fuzzy candidate-party membership, propose a gradient learning of per-party votes assignments and utilize it for iterative on-line aggregation of recommendations. Main features of the proposed algorithm are ability to iteratively learn relevance of individual base recommenders (parties), ability to account for multiple item's memberships and capability to provide proportional representation of base recommenders w.r.t. their results as well as fair ordering of the final list of recommended items. Fuzzy D'Hondt's aggregation method was evaluated in on-line A/B testing against state-of-the-art approach based on multi-armed bandits with Thompson sampling and achieved competitive results.}
+}
+
+@InProceedings{liberman19,
+    title = {Search-Based Serving Architecture of Embeddings-Based Recommendations},
+    section = {Contributed Papers},
+    author = {Liberman, Sonya and Bar, Shaked and Vannerom, Raphael and Rosenstein, Danny and Lempel, Ronny},
+    pages = {12-20},
+    abstract = {Over the past 10 years, many recommendation techniques have been based on embedding users and items in latent vector spaces, where the inner product of a (user,item) pair of vectors represents the predicted affinity of the user to the item. A wealth of literature has focused on the various modeling approaches that result in embeddings, and has compared their quality metrics, learning complexity, etc. However, much less attention has been devoted to the issues surrounding productization of an embeddings-based high throughput, low latency recommender system. In particular, how the system might keep up with the changing embeddings as new models are learnt. This paper describes a reference architecture of a high-throughput, large scale recommendation service which leverages a search engine as its runtime core. We describe how the search index and the query builder adapt to changes in the embeddings, which often happen at a different cadence than index builds. We provide solutions for both id-based and feature-based embeddings, as well as for batch indexing and incremental indexing setups. The described system is at the core of a Web content discovery service that serves tens of billions recommendations per day in response to billions of user requests}
+}
+
+@InProceedings{ramalho19,
+    title = {Incremental Multi-Dimensional Recommender Systems: Co-Factorization vs Tensors},
+    section = {Contributed Papers},
+    author = {Ramalho, Miguel Sozinho and Vinagre, Jo\~{a}o and Jorge, Al\'{i}pio M\'{a}rio and Bastos, Rafaela},
+    pages = {21-35},
+    abstract = {The present paper sets a milestone on incremental recommender systems approaches by comparing several state-of-the-art algorithms with two different mathematical foundations - matrix and tensor factorization. Traditional Pairwise Interaction Tensor Factorization is revisited and converted into a scalable and incremental option that yields the best predictive power. A novel tensor inspired approach is described. Finally, experiments compare contextless vs context-aware scenarios, the impact of noise on the algorithms, discrepancies between time complexity and execution times, and are run on five different datasets from three different recommendation areas - music, gross retail and garment. Relevant conclusions are drawn that aim to help choosing the most appropriate algorithm to use when faced with a novel recommender tasks.}
+}
+
+@InProceedings{loni19,
+    title = {Personalized Push Notifications for News Recommendation},
+    section = {Contributed Papers},
+    author = {Loni, Babak and Schuth, Anne and de Haas, Lucas and Jansze, Jeroen and Visser, Vasco and van der Wees, Marlies},
+    pages = {36-45},
+    abstract = {Push notifications on mobile devices are an important way for users to stay up to date with news. Push notifications can also be a major source of annoyance for users: being interrupted at the wrong time for something you do not care about is frustrating. It is crucial to ensure the right push is sent to the right user at the right moment. In this paper we address this problem of personalized push notifications. We introduce our streaming push personalization pipeline, describe how we personalize pushes, discuss challenges, and end with open questions.}
+}
+
+@InProceedings{wei19,
+    title = {Optimal Delivery with Budget Constraint in E-Commerce Advertising},
+    section = {Keynote},
+    author = {Wei, Chao and Zhang, Weiru and Sun, Shengjie and Li, Fei and Meng, Xiaonan and Hu, Yi and Lee, Kuang-chih and Wang, Hao},
+    pages = {46-58},
+    abstract = {Online advertising in E-commerce platforms provides sellers an opportunity to achieve potential audiences with different target goals. Ad serving systems (like display and search advertising systems) that assign ads to pages should satisfy objectives such as plenty of audience for branding advertisers, clicks or conversions for performance-based advertisers, at the same time try to maximize overall revenue of the platform. In this paper, we propose an approach based on linear programming subjects to constraints in order to optimize the revenue and improve different performance goals simultaneously. We have validated our algorithm by implementing an offline simulation system in Alibaba E-commerce platform and running the auctions from online requests which takes system performance, ranking
+and pricing schemas into account. We have also compared our algorithm with related work, and the results show that our algorithm can effectively improve campaign performance and revenue of the platform.}
+}
+
+@InProceedings{wen19,
+    title = {Practical Lessons from Predicting New User Demographics for Ad Targeting},
+    section = {Contributed Papers},
+    author = {Wen, Musen and Xia, Zhen and Vasthimal, Deepak Kumar},
+    pages = {59-67},
+    abstract = {Programmatic ad buying, the use of technology to automate and optimize the ad buying process in real-time, has been emerging to be the major form of online advertising. For each online campaign, advertisers generally want to specify a certain group of audience that they want to target at. Among these, demographics (user age and gender) is the fundamental and most common targeting option. On the other side, due to the huge volume of bid-requests flowing into the exchange, majority of those users (i.e. cookies) are either completely new to the ad platform or has too little historical behavior information to determine their demographics. In this paper, we present and discuss the methods, system and practical lessons in tackling this problem at massive scale.}
+}
