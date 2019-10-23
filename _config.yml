@@ -7,7 +7,6 @@ start: 2019-09-19
 end: 2019-09-19
 url: http://proceedings.mlr.press
 published: 2019-10-14
-location: ACM RecSys 2019, Copenhagen, Denmark
 sections:
 - name: 'Keynote'
   title: 'Keynote'
@@ -63,7 +62,7 @@ email: ''
 conference:
   name: 2nd Workshop on Online Recommender Systems and User Modeling
   url: 
-  location: ''
+  location: ACM RecSys 2019, Copenhagen, Denmark
   dates:
   - 2019-09-19
 analytics:
