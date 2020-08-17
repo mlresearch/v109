@@ -15,6 +15,7 @@ sections:
 - name: Contributed Papers
   title: Contributed Papers
 layout: proceedings
+publisher: PMLR
 series: Proceedings of Machine Learning Research
 issn: 2640-3498
 id: ORSUM-2019
