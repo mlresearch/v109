@@ -1,5 +1,6 @@
 ---
 booktitle: Proceedings of the 2nd Workshop on Online Recommder Systems and User Modeling
+orig_bibfile: "/Users/neil/mlresearch/bibtex.bib"
 shortname: ORSUM
 year: '2019'
 volume: 109
@@ -52,6 +53,10 @@ baseurl: "/v109"
 twitter_username: MLResearchPress
 github_username: mlresearch
 markdown: kramdown
+exclude:
+- README.md
+- Gemfile
+- ".gitignore"
 style: pmlr
 plugins:
 - jekyll-feed
@@ -78,6 +83,5 @@ conference:
 analytics:
   google:
     tracking_id: UA-92432422-1
-orig_bibfile: "/Users/neil/mlresearch/bibtex.bib"
 # Site settings
 # Original source:  /Users/neil/mlresearch/bibtex.bib
